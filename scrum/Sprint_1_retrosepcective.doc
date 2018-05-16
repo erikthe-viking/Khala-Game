@@ -1,0 +1,82 @@
+﻿Sprint 1 Reflection
+
+	Sprint 1 proved to be more challenging then anticipated. The team as a whole had limited experience with JAVA which proved to impede quick progress early. However once our acumen for the language increased the speed of our progress also increased. As a collective whole Sprint 1 showcased some good and bad practices we as a team used.
+
+	Some of the good items we achieved that we do while working on Sprint 1 were we were able to get the AI architected, the GUI implemented in an aesthetically pleasing and functional way and the game manager implemented with basic functionality. The AI is now mostly complete with the core functions max, min, terminal test and utility functions implemented along with a node class with customizable parameters implemented. The GUI was implemented at a basic level with a dynamic layout manger and it implements responsive buttons that can play a basic game. The dynamic layout manger allows us to scale the board to multiple sizes. The game manager was also implemented with basic core functionality created.
+	
+	Some of the things we could approve on are the overall architecture of our classes. We as a team started working on our code independently which may lend to issues down the line in later sprints. We may have issues with how our game manager, GUI and AI all interface with  each other to form a complete product. 
+
+	As a collective whole we met our Sprint 1 goals and as a team are very impressed with our performance so far. We hope to carry the momentum we generated this week into the later sprints. 
+
+
+
+
+
+
+
+Sprint 2 Backlog
+GUI:
+Fully Functional GUI with adjustable size/parameters
+AI:
+AI with adjustable parameters
+AI complete by sprint 2
+Client-server model:
+Client-server model planned and stubs created(at a high level/conceptual – not implemented as of sprint 1)
+Implemented in Sprint 3
+Game Manager:
+Game manager class created
+Game manager allows player vs. AI mode
+Game manager allows player vs. player mode
+Game manager has a system to model the board
+Game manager correctly sets board with seeds (locations and counts)
+Game state output to terminal
+Game manager allows typed input from user in terminal (user chooses which house to empty)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Product Backlog
+Overall Project Backlog
+GUI:
+GUI renders game state and allows user to enter move by clicking on a slot
+GUI renders individual seeds and animates their movement
+GUI displays seed count in each pit and each player’s store
+GUI indicates the current player’s turn 
+GUI includes title/game-over screen and settings dialogue 
+Game manager:
+Game manager class created
+Game manager allows player vs. AI mode
+Game manager allows player vs. player mode
+Game manager has a system to model the board
+Game manager correctly sets board with seeds (locations and counts)
+Game state output to terminal
+Game manager allows typed input from user in terminal (user chooses which house to empty)
+Game manager allows user to pick whether player or AI goes first (or select at random)
+Game manager tracks valid/invalid moves (does not allow invalid moves)
+Game manager implements correct moving of seeds based on input
+Game manager implements the correct seed stealing rules
+Game manager tracks total moves played by each player
+Game manager may enforce a max move count (optional)
+Game manager tracks if win condition is met
+Game manager allows whole game to be reset
+Game manager keeps track of player(s) wins (and AI wins if playing AI)
+Client-server model:
+Client-server model supports remote play between players/AI
+AI:
+AI features fully-implemented minimax tree (plans ahead several moves)
+AI has variable difficulty settings
+AI does not always choose optimal move (degree of randomness – dependent on difficulty setting)
